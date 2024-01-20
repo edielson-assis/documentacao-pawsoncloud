@@ -1,0 +1,15 @@
+br.com.pawsoncloud
+br.com.pawsoncloud.controladores
+br.com.pawsoncloud.controladores.excecao
+br.com.pawsoncloud.doc
+br.com.pawsoncloud.dtos
+br.com.pawsoncloud.email
+br.com.pawsoncloud.entidades
+br.com.pawsoncloud.entidades.enums
+br.com.pawsoncloud.repositorios
+br.com.pawsoncloud.seguranca
+br.com.pawsoncloud.seguranca.excecoes
+br.com.pawsoncloud.servicos
+br.com.pawsoncloud.servicos.conversor
+br.com.pawsoncloud.servicos.excecoes
+br.com.pawsoncloud.servicos.impl
