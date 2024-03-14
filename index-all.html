@@ -5,7 +5,7 @@
 <title>Index (PawsOnCloud API (0.0.1))</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="dc.created" content="2024-01-19">
+<meta name="dc.created" content="2024-03-14">
 <meta name="description" content="index">
 <meta name="generator" content="javadoc/IndexWriter">
 <link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
@@ -51,7 +51,7 @@ loadScripts(document, 'script');</script>
 <div class="header">
 <h1>Index</h1>
 </div>
-<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
+<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a>
 <h2 class="title" id="I:A">A</h2>
 <dl class="index">
 <dt><a href="br/com/pawsoncloud/controladores/excecao/ControllerExceptionHandler.html#accessDeniedError(java.nio.file.AccessDeniedException,jakarta.servlet.http.HttpServletRequest)" class="member-name-link">accessDeniedError(AccessDeniedException, HttpServletRequest)</a> - Method in class br.com.pawsoncloud.controladores.excecao.<a href="br/com/pawsoncloud/controladores/excecao/ControllerExceptionHandler.html" title="class in br.com.pawsoncloud.controladores.excecao">ControllerExceptionHandler</a></dt>
@@ -203,6 +203,8 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><a href="br/com/pawsoncloud/package-summary.html">br.com.pawsoncloud</a> - package br.com.pawsoncloud</dt>
 <dd>&nbsp;</dd>
+<dt><a href="br/com/pawsoncloud/config/package-summary.html">br.com.pawsoncloud.config</a> - package br.com.pawsoncloud.config</dt>
+<dd>&nbsp;</dd>
 <dt><a href="br/com/pawsoncloud/controladores/package-summary.html">br.com.pawsoncloud.controladores</a> - package br.com.pawsoncloud.controladores</dt>
 <dd>&nbsp;</dd>
 <dt><a href="br/com/pawsoncloud/controladores/excecao/package-summary.html">br.com.pawsoncloud.controladores.excecao</a> - package br.com.pawsoncloud.controladores.excecao</dt>
@@ -290,6 +292,8 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Método estático que contém a mensagem de email que será enviada para o usuário na validação dos dados.</div>
 </dd>
+<dt><a href="br/com/pawsoncloud/config/TestConfig.html#CONTENT_TYPE_JSON" class="member-name-link">CONTENT_TYPE_JSON</a> - Static variable in class br.com.pawsoncloud.config.<a href="br/com/pawsoncloud/config/TestConfig.html" title="class in br.com.pawsoncloud.config">TestConfig</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="br/com/pawsoncloud/controladores/excecao/ControllerExceptionHandler.html" class="type-name-link" title="class in br.com.pawsoncloud.controladores.excecao">ControllerExceptionHandler</a> - Class in <a href="br/com/pawsoncloud/controladores/excecao/package-summary.html">br.com.pawsoncloud.controladores.excecao</a></dt>
 <dd>
 <div class="block">Classe que lida com exceções globais em controllers e fornece respostas padronizadas.</div>
@@ -413,6 +417,10 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Returns the value of the <code>dataNascimento</code> record component.</div>
 </dd>
+<dt><a href="br/com/pawsoncloud/repositorios/TokenEmailRepositorio.html#deletarTokenNaoConfirmadosPorUsuario(java.lang.Long)" class="member-name-link">deletarTokenNaoConfirmadosPorUsuario(Long)</a> - Method in interface br.com.pawsoncloud.repositorios.<a href="br/com/pawsoncloud/repositorios/TokenEmailRepositorio.html" title="interface in br.com.pawsoncloud.repositorios">TokenEmailRepositorio</a></dt>
+<dd>
+<div class="block">Deleta o TokenEmail associado ao usuário, se o campo confirmadoAs estiver nulo.</div>
+</dd>
 <dt><a href="br/com/pawsoncloud/controladores/UsuarioRegistroControle.html#delete()" class="member-name-link">delete()</a> - Method in class br.com.pawsoncloud.controladores.<a href="br/com/pawsoncloud/controladores/UsuarioRegistroControle.html" title="class in br.com.pawsoncloud.controladores">UsuarioRegistroControle</a></dt>
 <dd>
 <div class="block">Apaga a conta do usuário.</div>
@@ -448,6 +456,14 @@ loadScripts(document, 'script');</script>
 <dt><a href="br/com/pawsoncloud/servicos/impl/DoacaoServicoImpl.html#delete(java.lang.Long)" class="member-name-link">delete(Long)</a> - Method in class br.com.pawsoncloud.servicos.impl.<a href="br/com/pawsoncloud/servicos/impl/DoacaoServicoImpl.html" title="class in br.com.pawsoncloud.servicos.impl">DoacaoServicoImpl</a></dt>
 <dd>
 <div class="block">Cancela uma doação com base no id informado.</div>
+</dd>
+<dt><a href="br/com/pawsoncloud/servicos/impl/TokenEmailServicoImpl.html#deleteTokenByUsuarioId(java.lang.Long)" class="member-name-link">deleteTokenByUsuarioId(Long)</a> - Method in class br.com.pawsoncloud.servicos.impl.<a href="br/com/pawsoncloud/servicos/impl/TokenEmailServicoImpl.html" title="class in br.com.pawsoncloud.servicos.impl">TokenEmailServicoImpl</a></dt>
+<dd>
+<div class="block">Deleta o token associado ao usuário.</div>
+</dd>
+<dt><a href="br/com/pawsoncloud/servicos/TokenEmailServico.html#deleteTokenByUsuarioId(java.lang.Long)" class="member-name-link">deleteTokenByUsuarioId(Long)</a> - Method in interface br.com.pawsoncloud.servicos.<a href="br/com/pawsoncloud/servicos/TokenEmailServico.html" title="interface in br.com.pawsoncloud.servicos">TokenEmailServico</a></dt>
+<dd>
+<div class="block">Deleta o token associado ao usuário.</div>
 </dd>
 <dt><a href="br/com/pawsoncloud/entidades/enums/StatusAdocao.html#DISPONIVEL" class="member-name-link">DISPONIVEL</a> - Enum constant in enum class br.com.pawsoncloud.entidades.enums.<a href="br/com/pawsoncloud/entidades/enums/StatusAdocao.html" title="enum class in br.com.pawsoncloud.entidades.enums">StatusAdocao</a></dt>
 <dd>
@@ -1074,9 +1090,9 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Returns the value of the <code>logradouro</code> record component.</div>
 </dd>
-<dt><a href="br/com/pawsoncloud/dtos/EnderecoFullRespDto.html#Logradouro()" class="member-name-link">Logradouro()</a> - Method in record class br.com.pawsoncloud.dtos.<a href="br/com/pawsoncloud/dtos/EnderecoFullRespDto.html" title="class in br.com.pawsoncloud.dtos">EnderecoFullRespDto</a></dt>
+<dt><a href="br/com/pawsoncloud/dtos/EnderecoFullRespDto.html#logradouro()" class="member-name-link">logradouro()</a> - Method in record class br.com.pawsoncloud.dtos.<a href="br/com/pawsoncloud/dtos/EnderecoFullRespDto.html" title="class in br.com.pawsoncloud.dtos">EnderecoFullRespDto</a></dt>
 <dd>
-<div class="block">Returns the value of the <code>Logradouro</code> record component.</div>
+<div class="block">Returns the value of the <code>logradouro</code> record component.</div>
 </dd>
 </dl>
 <h2 class="title" id="I:M">M</h2>
@@ -1262,6 +1278,8 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Returns the value of the <code>senha</code> record component.</div>
 </dd>
+<dt><a href="br/com/pawsoncloud/config/TestConfig.html#SERVER_PORT" class="member-name-link">SERVER_PORT</a> - Static variable in class br.com.pawsoncloud.config.<a href="br/com/pawsoncloud/config/TestConfig.html" title="class in br.com.pawsoncloud.config">TestConfig</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="br/com/pawsoncloud/entidades/Animais.html#setAdotado(boolean)" class="member-name-link">setAdotado(boolean)</a> - Method in class br.com.pawsoncloud.entidades.<a href="br/com/pawsoncloud/entidades/Animais.html" title="class in br.com.pawsoncloud.entidades">Animais</a></dt>
 <dd>
 <div class="block">Define o estado de adoção associado a esta instância.</div>
@@ -1321,6 +1339,10 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">Returns the value of the <code>telefone</code> record component.</div>
 </dd>
+<dt><a href="br/com/pawsoncloud/config/TestConfig.html" class="type-name-link" title="class in br.com.pawsoncloud.config">TestConfig</a> - Class in <a href="br/com/pawsoncloud/config/package-summary.html">br.com.pawsoncloud.config</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="br/com/pawsoncloud/config/TestConfig.html#%3Cinit%3E()" class="member-name-link">TestConfig()</a> - Constructor for class br.com.pawsoncloud.config.<a href="br/com/pawsoncloud/config/TestConfig.html" title="class in br.com.pawsoncloud.config">TestConfig</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="br/com/pawsoncloud/seguranca/TokenJWT.html#token()" class="member-name-link">token()</a> - Method in record class br.com.pawsoncloud.seguranca.<a href="br/com/pawsoncloud/seguranca/TokenJWT.html" title="class in br.com.pawsoncloud.seguranca">TokenJWT</a></dt>
 <dd>
 <div class="block">Returns the value of the <code>token</code> record component.</div>
@@ -1613,7 +1635,7 @@ loadScripts(document, 'script');</script>
 the order they are declared.</div>
 </dd>
 </dl>
-<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
+<a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:J">J</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<br><a href="allclasses-index.html">All&nbsp;Classes&nbsp;and&nbsp;Interfaces</a><span class="vertical-separator">|</span><a href="allpackages-index.html">All&nbsp;Packages</a><span class="vertical-separator">|</span><a href="constant-values.html">Constant&nbsp;Field&nbsp;Values</a><span class="vertical-separator">|</span><a href="serialized-form.html">Serialized&nbsp;Form</a></main>
 <footer role="contentinfo">
 <hr>
 <p class="legal-copy"><small>Copyright &#169; 2024. Todos os direitos reservados a PawsOnCloud.</small></p>
